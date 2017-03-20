@@ -1,0 +1,9 @@
+{
+    "name": "robgnu/csvdb",
+    "description": "Use CSV files like a small database.",
+    "homepage": "https://github.com/robgnu/csvdb/",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.5.9"
+    }
+}
