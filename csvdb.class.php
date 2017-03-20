@@ -14,7 +14,7 @@ namespace robgnu;
  * @license The MIT License (MIT)
  */
 
-class CsvDB {
+class csvdb {
   protected $errorMessage;    // Contains error messages or is empty
   protected $pathToFile;      // Contains the path to the csv-file
   protected $isFile;          // Is the file present or not?
@@ -22,7 +22,7 @@ class CsvDB {
   protected $columnKeys;      // An array of the column headers.
   protected $csvValues;       // An array of the CSV data.
 
-  const version = "0.1.0";
+  const version = "0.1.1";
   const CsvSeparator = ";";
   const CsvSaveLineEndings = "\r\n"; // Windows
 
@@ -319,6 +319,6 @@ class CsvDB {
     return $this->saveCsvFile();
   } // function Delete
 
-} // class CsvDB
+} // class csvdb
 
 ?>
