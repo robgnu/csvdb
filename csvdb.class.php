@@ -22,7 +22,7 @@ class csvdb {
   protected $columnKeys;      // An array of the column headers.
   protected $csvValues;       // An array of the CSV data.
 
-  const version = "0.1.1";
+  const version = "0.1.2";
   const CsvSeparator = ";";
   const CsvSaveLineEndings = "\r\n"; // Windows
 
